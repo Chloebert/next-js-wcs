@@ -23,6 +23,11 @@ export default function Layout({ children, pageTitle }) {
               Terms of use
             </a>
           </Link>
+          <Link href="/campuses">
+            <a className={styles.navlink} href="/campuses">
+              Campuses
+            </a>
+          </Link>
         </nav>
       </header>
       <main className={styles.container}>
